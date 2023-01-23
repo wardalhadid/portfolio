@@ -18,7 +18,7 @@ const projects = [
       "/images/expenses2.png",
       "/images/expenses3.png"
     ],
-    stack: "React NodeJS React-Router Redux MongoDB Tailwind CSS"
+    stack: "React | NodeJS | React-Router | Redux | MongoDB | Tailwind CSS"
   },
   {
     title: "Movie DB",
@@ -28,7 +28,7 @@ const projects = [
     images: [
       "/images/movieDB.png"
     ],
-    stack: "Svelte CSS"
+    stack: "Svelte | CSS"
   },
   {
     title: "Markdown Previewer",
@@ -38,7 +38,7 @@ const projects = [
     images: [
       "/images/markdown-previewer.png"
     ],
-    stack: "React CSS"
+    stack: "React | CSS"
   },
   {
     title: "Drum Machine",
@@ -48,7 +48,7 @@ const projects = [
     images: [
       "/images/drum-machine.png", 
     ],
-    stack: "React CSS"
+    stack: "React | CSS"
   },
   {
     title: "Random Quote Generator",
@@ -58,7 +58,7 @@ const projects = [
     images: [
       "/images/quote-generator.png", 
     ],
-    stack: "React CSS"
+    stack: "React | CSS"
   },
   {
     title: "Calculator",
@@ -68,7 +68,7 @@ const projects = [
     images: [
       "/images/calculator.png", 
     ],
-    stack: "React CSS"
+    stack: "React | CSS"
   },
   {
     title: "Pomodoro Clock",
@@ -78,7 +78,7 @@ const projects = [
     images: [
       "/images/pomodoro.png", 
     ],
-    stack: "React CSS"
+    stack: "React | CSS"
   },
   {
     title: "URL Shortner",
@@ -88,7 +88,7 @@ const projects = [
     images: [
       "/images/url-shortener1.png", 
     ],
-    stack: "NodeJS"
+    stack: "NodeJS | MongoDB"
   },
 ];
 return {props: {projects}}

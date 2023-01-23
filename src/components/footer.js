@@ -1,7 +1,7 @@
 export default function Footer() {
   return(
     <div
-      className="text-white bg-slate-900 mt-3 static flex w-full p-3 shadow-lg justify-between mx-auto"
+      className="text-white bg-slate-900 mt-3 static flex w-full p-3 shadow-lg justify-between mx-auto text-center"
       id="contact"
     >
       <div
