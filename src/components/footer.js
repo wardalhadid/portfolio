@@ -5,7 +5,7 @@ export default function Footer() {
       id="contact"
     >
       <div
-      className="flex flex-col justify-center mx-20"
+      className="flex flex-col justify-between"
       >
         <ul className="flex flex-col justify-center">
           <li><b>E-mail:</b> wf.hadid94@gmail.com</li>
