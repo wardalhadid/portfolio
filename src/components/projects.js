@@ -14,7 +14,7 @@ export default function Projects({projects}) {
           <div className="carousel w-full">
           { images.map((image, index) => (
             <div id={`${title}slide${index}`} className="carousel-item relative w-full" key={index}>
-              <Image src={image} alt="project image" width={400} height={300} className="w-full"/>
+              <Image src={image} alt="project image" width={500} height={400} className="w-full"/>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <Link href={(index - 1 < 0) ? `#${title}slide${images.length - 1}` : `#${title}slide${index - 1}`}  className="btn btn-circle btn-ghost">❮</Link> 
                 <Link href={(index + 1 >= images.length) ? `#${title}slide0` : `#${title}slide${index + 1}`} 
