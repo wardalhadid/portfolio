@@ -16,6 +16,7 @@ const projects = [
     images: [
       "/images/expenses1.png", 
       "/images/expenses2.png",
+      "/images/expenses4.png",
       "/images/expenses3.png"
     ],
     stack: "React | NodeJS | React-Router | Redux | MongoDB | Tailwind CSS"
@@ -87,6 +88,7 @@ const projects = [
     description: "NodeJS application that allows customers to enter a url and get a shorter url.",
     images: [
       "/images/url-shortener1.png", 
+      "/images/url-shortener2.png"
     ],
     stack: "NodeJS | MongoDB"
   },
