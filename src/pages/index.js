@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import Layout from '@/components/layout'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,9 +25,42 @@ const projects = [
     source: "https://github.com/wardalhadid/movieDB",
     description: "Popular movies database web application. The UI was built using Svelte, API from TMDB and styled using CSS.",
     images: [
-      "/images/movieDB.png"
+      "/images/movieDB/mdb1.png",
+      "/images/movieDB/mdb2.png",
+      "/images/movieDB/mdb3.png",
+      "/images/movieDB/mdb4.png",
+
     ],
     stack: "Svelte | CSS"
+  },
+  {
+    title: "TinDog",
+    url: "https://wardalhadid.github.io/TinDog-landingpage/",
+    source: "https://github.com/wardalhadid/TinDog-landingpage",
+    description: "Tinder landing page clone using HTML and Bootstrap.",
+    images: [
+      "/images/tindog/tin2.png",
+      "/images/tindog/tin3.png",
+      "/images/tindog/tin4.png",
+      "/images/tindog/tin5.png",
+      "/images/tindog/tin6.png",
+      "/images/tindog/tin7.png",
+
+    ],
+    stack: "HTML | CSS | Bootstrap"
+  },
+  {
+    title: "Dual Keys Caesar Cipher",
+    url: "https://wardalhadid.github.io/Dual-Keys-Caeser-Cipher/",
+    source: "https://github.com/wardalhadid/Dual-Keys-Caeser-Cipher",
+    description: "A dual keys instead of the regular one key Caesar Cipher Encrypter-Decrypter built with HTML, CSS, Bootsrap, and JavaScript.",
+    images: [
+      "/images/caesarCipher/c1.png",
+      "/images/caesarCipher/c2.png",
+      "/images/caesarCipher/c3.png",
+      "/images/caesarCipher/c4.png",
+    ],
+    stack: "HTML | CSS | Bootstrap | JavaScript"
   },
   {
     title: "Markdown Previewer",
@@ -57,7 +88,10 @@ const projects = [
     source: "https://codepen.io/ward-alhadid/pen/dyVmyPR",
     description: "Random quote generator web application. The UI was built using React and styled using CSS. users can generate random quotes and share them on twitter.",
     images: [
-      "/images/quote-generator.png", 
+      "/images/quotes/q1.png", 
+      "/images/quotes/q2.png", 
+      "/images/quotes/q3.png", 
+
     ],
     stack: "React | CSS"
   },
