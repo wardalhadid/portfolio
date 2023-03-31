@@ -10,7 +10,7 @@ export default function Projects({projects}) {
       projects.map(({title, url, source, description, images, stack}) => (
         <div className="flex flex-col shadow-sm mb-2 relative p-2 justify-center items-center gap-3 w-10/12 mx-auto" key={title}>
           <h3 className="flex justify-center mb-1 font-bold text-xl"><a href={url} target="_blank" rel="noreferrer" className="hover:text-cyan-400 cursor-pointer">{title}</a></h3>
-          <div className="flex justify-center w-7/12">
+          <div className="flex justify-center w-7/12 md:w-9/12">
           <div className="carousel w-full">
           { images.map((image, index) => (
             <div id={`${title}slide${index}`} className="carousel-item relative w-full" key={index}>
