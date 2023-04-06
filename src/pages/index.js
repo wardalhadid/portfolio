@@ -7,6 +7,23 @@ const inter = Inter({ subsets: ['latin'] })
 export function getStaticProps() {
 const projects = [
   {
+    title: "SupaNotes",
+    url: "https://supa-notes-vghz-bxseuaaq7-wardalhadid.vercel.app/",
+    source: "https://github.com/wardalhadid/SupaNotes",
+    description: "Notes web app that allows users to login, create, edit, and delete notes. built with Next.js, daisyui, PlanetScale, Prisma and tRPC",
+    images: [
+      "/images/sn/sn1.png", 
+      "/images/sn/sn2.png",
+      "/images/sn/sn3.png",
+      "/images/sn/sn4.png",
+      "/images/sn/sn5.png", 
+      "/images/sn/sn6.png",
+      "/images/sn/sn7.png",
+      "/images/sn/sn8.png",
+    ],
+    stack: "Next.js | tRPC | daisyui | PlanetScale | Prisma | Tailwind CSS | Clerk"
+  },
+  {
     title: "Expenses Tracker",
     url: "https://www.expensesify.online/",
     source: "https://github.com/wardalhadid/Expensesify",
