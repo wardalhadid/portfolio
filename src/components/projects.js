@@ -50,6 +50,7 @@ export default function Projects({ projects }) {
                     key={index}
                     href={`#${title}item${index}`}
                     className="btn btn-xs"
+                    scroll={false}
                   >
                     {index + 1}
                   </Link>
