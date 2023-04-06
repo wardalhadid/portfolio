@@ -36,8 +36,8 @@ export default function Projects({ projects }) {
                   <Image
                     src={image}
                     alt="project image"
-                    width={500}
-                    height={400}
+                    width={400}
+                    height={300}
                     className="w-full"
                   />
                 </div>
@@ -50,7 +50,6 @@ export default function Projects({ projects }) {
                     key={index}
                     href={`#${title}item${index}`}
                     className="btn btn-xs"
-                    scroll={false}
                   >
                     {index + 1}
                   </Link>
