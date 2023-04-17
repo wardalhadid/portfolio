@@ -13,7 +13,7 @@ export default function Hero() {
       >
         <h2 className="mb-2 text-2xl"><b>About Me</b></h2>
         <p className="font-light">Hello, I am <b>Ward</b>, I am a Web developer. Thank you for taking a moment to take a look at my portfolio. Kindly take a moment to check some of my projects below, I have used React, Next.js, Node, MongoDB, tRPC, Prisma and many other technologies. and do not hesitate to <a className="text-sky-500 text-bold hover:text-cayan-400 cursor-pointer hover:font-bold hover:text-lg" href="mailto:wf.hadid94@gmail.com" target="_blank" rel="noreferrer">Contact</a> me for inquiries.</p>
-        <span className="font-light text-sm absolute right-4 bottom-4 flex gap-1 items-center">Resume 
+        <span className="font-light text-sm absolute right-1 bottom-4 flex gap-1 items-center">Resume 
         <a>
         <button onClick={() => download(fileUrl, filename)} ><svg 
         xmlns="http://www.w3.org/2000/svg" 

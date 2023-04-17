@@ -11,15 +11,15 @@ const projects = [
     url: "https://supa-notes-vghz-bxseuaaq7-wardalhadid.vercel.app/",
     source: "https://github.com/wardalhadid/SupaNotes",
     description: "Notes web app that allows users to login, create, edit, and delete notes. built with Next.js, daisyui, PlanetScale, Prisma and tRPC",
-    images: [
-      "/images/sn/sn1.png", 
-      "/images/sn/sn2.png",
-      "/images/sn/sn3.png",
-      "/images/sn/sn4.png",
-      "/images/sn/sn5.png", 
-      "/images/sn/sn6.png",
-      "/images/sn/sn7.png",
-      "/images/sn/sn8.png",
+    images:[ 
+      {src: "/images/sn/sn1.png", width: 2880, height: 1754}, 
+      {src: "/images/sn/sn2.png", width: 2854, height: 1650},
+      {src: "/images/sn/sn3.png", width: 2874, height: 1754},
+      {src: "/images/sn/sn4.png", width: 1443, height: 872},
+      {src: "/images/sn/sn5.png", width: 2876, height: 1746}, 
+      {src: "/images/sn/sn6.png", width: 2876, height: 1756},
+      {src: "/images/sn/sn7.png", width: 2880, height: 1750},
+      {src: "/images/sn/sn8.png", width: 2878, height: 1750},
     ],
     stack: "Next.js | tRPC | daisyui | PlanetScale | Prisma | Tailwind CSS | Clerk"
   },
@@ -29,10 +29,10 @@ const projects = [
     source: "https://github.com/wardalhadid/Expensesify",
     description: "Expenses tracker Web Application. The UI was built in React, state management using Redux, database is managed using MongoDB, styles using Flowbite and Tailwind CSS, and the backend was bult with NodeJs and Express. The app allows the user to search, sort, add, update and delete expenses.",
     images: [
-      "/images/expenses1.png", 
-      "/images/expenses2.png",
-      "/images/expenses4.png",
-      "/images/expenses3.png"
+     {src: "/images/expenses1.png", width: 1920, height: 879}, 
+     {src: "/images/expenses2.png", width: 1920, height: 821}, 
+     {src: "/images/expenses3.png", width: 1920, height: 864}, 
+     {src: "/images/expenses4.png", width: 1920, height: 868}, 
     ],
     stack: "React | NodeJS | React-Router | Redux | MongoDB | Tailwind CSS"
   },
@@ -42,11 +42,10 @@ const projects = [
     source: "https://github.com/wardalhadid/movieDB",
     description: "Popular movies database web application. The UI was built using Svelte, API from TMDB and styled using CSS.",
     images: [
-      "/images/movieDB/mdb1.png",
-      "/images/movieDB/mdb2.png",
-      "/images/movieDB/mdb3.png",
-      "/images/movieDB/mdb4.png",
-
+     {src: "/images/movieDB/mdb1.png", width: 1920, height: 883},
+     {src: "/images/movieDB/mdb2.png", width: 1176, height: 663},
+     {src: "/images/movieDB/mdb3.png", width: 1920, height: 886},
+     {src: "/images/movieDB/mdb4.png", width: 564, height: 681},
     ],
     stack: "Svelte | CSS"
   },
@@ -56,13 +55,13 @@ const projects = [
     source: "https://github.com/wardalhadid/TinDog-landingpage",
     description: "Tinder landing page clone using HTML and Bootstrap.",
     images: [
-      "/images/tindog/tin2.png",
-      "/images/tindog/tin3.png",
-      "/images/tindog/tin4.png",
-      "/images/tindog/tin5.png",
-      "/images/tindog/tin6.png",
-      "/images/tindog/tin7.png",
-
+      {src: "/images/tindog/tin1.png", width: 374, height: 659},
+      {src: "/images/tindog/tin2.png", width: 1920, height: 886},
+      {src: "/images/tindog/tin3.png", width: 1920, height: 893},
+      {src: "/images/tindog/tin4.png", width: 1920, height: 855},
+      {src: "/images/tindog/tin5.png", width: 1920, height: 854},
+      {src: "/images/tindog/tin6.png", width: 1920, height: 887},
+      {src: "/images/tindog/tin7.png", width: 1920, height: 883},
     ],
     stack: "HTML | CSS | Bootstrap"
   },
@@ -72,12 +71,22 @@ const projects = [
     source: "https://github.com/wardalhadid/Dual-Keys-Caeser-Cipher",
     description: "A dual keys instead of the regular one key Caesar Cipher Encrypter-Decrypter built with HTML, CSS, Bootsrap, and JavaScript.",
     images: [
-      "/images/caesarCipher/c1.png",
-      "/images/caesarCipher/c2.png",
-      "/images/caesarCipher/c3.png",
-      "/images/caesarCipher/c4.png",
+      {src: "/images/caesarCipher/c1.png", width: 1920, height: 881},
+      {src: "/images/caesarCipher/c2.png", width: 1920, height: 890},
+      {src: "/images/caesarCipher/c3.png", width: 1920, height: 887},
+      {src: "/images/caesarCipher/c4.png", width: 1920, height: 880},
     ],
     stack: "HTML | CSS | Bootstrap | JavaScript"
+  },
+  {
+    title: "Flappy Bird",
+    url: "https://wardalhadid.github.io/flappyBird/",
+    source: "https://github.com/wardalhadid/flappyBird",
+    description: "Flappy Bird game built with vanilla Javascript, html, and css using html Canvas.",
+    images: [
+      {src: "/images/flappybird.png", width: 839, height: 854}
+    ],
+    stack: "Javascript | CSS"
   },
   {
     title: "Markdown Previewer",
@@ -85,7 +94,7 @@ const projects = [
     source: "https://codepen.io/ward-alhadid/pen/wvrXKzm",
     description: "Markdown previewer web application. The UI was built using React and styled using CSS.",
     images: [
-      "/images/markdown-previewer.png"
+      {src: "/images/markdown-previewer.png", width: 1384, height: 783}
     ],
     stack: "React | CSS"
   },
@@ -95,7 +104,7 @@ const projects = [
     source: "https://codepen.io/ward-alhadid/pen/eYGxxea",
     description: "Drum machine web application. The UI was built using React and styled using CSS. Users are able to use the keyboard or click the buttons on the screen to play drum sounds.",
     images: [
-      "/images/drum-machine.png", 
+      {src: "/images/drum-machine.png", width: 1127, height: 693}, 
     ],
     stack: "React | CSS"
   },
@@ -105,10 +114,9 @@ const projects = [
     source: "https://codepen.io/ward-alhadid/pen/dyVmyPR",
     description: "Random quote generator web application. The UI was built using React and styled using CSS. users can generate random quotes and share them on twitter.",
     images: [
-      "/images/quotes/q1.png", 
-      "/images/quotes/q2.png", 
-      "/images/quotes/q3.png", 
-
+      {src: "/images/quotes/q1.png", width: 1619, height: 754}, 
+      {src: "/images/quotes/q2.png", width: 1626, height: 753}, 
+      {src: "/images/quotes/q3.png", width: 1625, height: 753},
     ],
     stack: "React | CSS"
   },
@@ -118,7 +126,7 @@ const projects = [
     source: "https://codepen.io/ward-alhadid/pen/NWwPzKM",
     description: "Calculator web application. The UI was built using React and styled using CSS.",
     images: [
-      "/images/calculator.png", 
+     {src: "/images/calculator.png", width: 626, height: 590}, 
     ],
     stack: "React | CSS"
   },
@@ -128,7 +136,7 @@ const projects = [
     source: "https://codepen.io/ward-alhadid/pen/vYRObRW",
     description: "Pomodoro clock web application. The UI was built using React and styled using CSS. Users can set focus time and break time and start the countdown.",
     images: [
-      "/images/pomodoro.png", 
+     {src: "/images/pomodoro.png", width: 1579, height: 744}, 
     ],
     stack: "React | CSS"
   },
@@ -138,8 +146,9 @@ const projects = [
     source: "https://replit.com/@WardHadid/boilerplate-project-urlshortener#index.js",
     description: "NodeJS application that allows customers to enter a url and get a shorter url.",
     images: [
-      "/images/url-shortener1.png", 
-      "/images/url-shortener2.png"
+      {src: "/images/url-shortener1.png", width: 1030, height: 581},
+      {src: "/images/url-shortener2.png", width: 817, height: 435}, 
+
     ],
     stack: "NodeJS | MongoDB"
   },

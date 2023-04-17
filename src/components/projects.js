@@ -21,7 +21,7 @@ export default function Projects({ projects }) {
                 href={url}
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-cyan-400 cursor-pointer"
+                className="hover:text-sky-600 text-sky-900 cursor-pointer"
               >
                 {title}
               </a>
@@ -34,10 +34,10 @@ export default function Projects({ projects }) {
                   key={index}
                 >
                   <Image
-                    src={image}
+                    src={image.src}
                     alt="project image"
-                    width={400}
-                    height={300}
+                    width={image.width}
+                    height={image.height}
                     className="w-full"
                   />
                 </div>
