@@ -22,7 +22,7 @@ export default function Footer() {
             rel="noreferrer"
           >GitHub</a></li>
           <li>
-            <a href="https://www.linkedin.com/in/ward-alhadid-76977b106/"
+            <a href="https://www.linkedin.com/in/wardalhadid"
             className="hover:text-cyan-400"
             target="_blank"
             rel="noreferrer"
