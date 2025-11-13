@@ -8,8 +8,8 @@ export default function Footer() {
       className="flex flex-col justify-between"
       >
         <ul className="flex flex-col justify-center">
-          <li><b>E-mail:</b> wf.hadid94@gmail.com</li>
-          <li><b>Phone:</b> (804) 497-6835</li>
+          <li><b>E-mail:</b> <span>wf.hadid94@gmail.com</span></li>
+          <li><b>Phone:</b> <span>(804) 497-6835</span></li>
         </ul>
       </div>
       <div className="mx-20">
